@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6D73CF7-1647-59A1-C5BD-D035F481A4BC" name="INGREDIENTES">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-27 21:49:28 UTC</createdTime>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<engineerTo>
+<item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_INGREDIENTE" id="C3F865B9-C250-99C7-0F8B-94AE8A2E8545">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-27 21:49:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de cada ingrediente]]></commentInRDBMS>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<engineerTo>
+<item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STOCK" id="A4FCB9A5-75F0-24B8-FA2A-626669D39968">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-27 21:50:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Stock disponible del ingrediente]]></commentInRDBMS>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<engineerTo>
+<item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECIO_UNITARIO" id="74093050-CC94-6748-F1C1-88245DEF3514">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-27 21:56:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Precio por unidad, del ingrediente]]></commentInRDBMS>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<engineerTo>
+<item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDC6CB62-C0D3-A57D-9DC0-D912814A0227" name="PROVEEDOR_INGREDIENTES PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-27 21:50:15 UTC</createdTime>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<engineerTo>
+<item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3F865B9-C250-99C7-0F8B-94AE8A2E8545</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
