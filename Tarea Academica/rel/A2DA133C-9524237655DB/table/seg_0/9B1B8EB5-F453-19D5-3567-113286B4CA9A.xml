@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B1B8EB5-F453-19D5-3567-113286B4CA9A" name="INGRED_X_PROD">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INGREDIENTES_ID_INGREDIENTE" id="F8D73028-F9C7-7B90-0184-C1A59EDF6F1F">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBA2D92D-DBEA-7821-750C-0BDB9DE8BA39" referredColumn="FC66C6CE-C3AD-ADF3-D322-0D76D1C8E741"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_ID_PRODUCTO" id="34BF2CE4-4394-0D08-E621-4304A740F9D5">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4BF057F-5F51-240D-172F-57B0B2B52563" referredColumn="836B1856-58D6-798F-9AB6-0DF9799EB17C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D55F605-1F53-A485-A029-6D9AF7F5B349" name="INGRED_X_PROD_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8D73028-F9C7-7B90-0184-C1A59EDF6F1F"/>
+<colUsage columnID="34BF2CE4-4394-0D08-E621-4304A740F9D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0F26B3A-4EEC-668E-4A64-66B5CE15C5CC" name="INGRED_X_PROD_INGREDIENTES_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>11187803-1704-AC34-D7A0-8B4EC73CE08B</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8D73028-F9C7-7B90-0184-C1A59EDF6F1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="873E2F8C-29D9-9D1A-8B07-6D00C0D4F08F" name="INGRED_X_PROD_PRODUCTO_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>11187803-1704-AC34-D7A0-8B4EC73CE08B</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34BF2CE4-4394-0D08-E621-4304A740F9D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E300E9C5-88D5-B485-0F3F-AA88C425BB36" name="SUCURSALES">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>3E939651-DE4F-30CC-443A-1D817F35DBB2</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SUCURSAL" id="BDDE4B78-63DB-97E2-8C58-CAD80C5FA42E">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de cada sucursal]]></commentInRDBMS>
+<generatorID>4FBBF192-BEBC-9BB1-E342-DED69A53A528</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="64284109-4BCE-8D2F-E3CF-0214C458D473">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de resturante, iguales para todas las sedes]]></commentInRDBMS>
+<generatorID>5C6159DE-B80A-6F24-C155-9B23BFF4AADF</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="CB4C7237-E484-15B4-1CC3-983EC08B6AC7">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Direccion donde se encuentra la sede del restaurante]]></commentInRDBMS>
+<generatorID>D9BEAE3C-0E63-7449-3F8D-0E955D89098C</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="7755FF26-74B8-C96C-9FE0-F00CF17F7197">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefono de la sede.]]></commentInRDBMS>
+<generatorID>E73D2DB8-13A5-FEC9-955D-8CEF736B5626</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="076E694C-F903-56DF-C57E-A2917DEC5445" name="SUCURSALES_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>CB290F67-A928-BE90-9E4B-FC79803E498D</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDDE4B78-63DB-97E2-8C58-CAD80C5FA42E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

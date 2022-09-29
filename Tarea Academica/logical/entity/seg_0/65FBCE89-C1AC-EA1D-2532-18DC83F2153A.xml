@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6D73CF7-1647-59A1-C5BD-D035F481A4BC" name="INGREDIENTES">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65FBCE89-C1AC-EA1D-2532-18DC83F2153A" name="FACTURA">
 <createdBy>Jesus</createdBy>
-<createdTime>2022-09-27 21:49:28 UTC</createdTime>
+<createdTime>2022-09-29 20:06:29 UTC</createdTime>
 <ownerDesignName>Tarea Academica</ownerDesignName>
 <engineerTo>
 <item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_INGREDIENTE" id="C3F865B9-C250-99C7-0F8B-94AE8A2E8545">
+<Attribute name="ID_FACTURA" id="10D0D40C-9475-6363-AF05-E69F9378BE16">
 <createdBy>Jesus</createdBy>
-<createdTime>2022-09-27 21:49:46 UTC</createdTime>
-<commentInRDBMS><![CDATA[Identificador de cada ingrediente]]></commentInRDBMS>
+<createdTime>2022-09-29 20:06:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la factura]]></commentInRDBMS>
 <ownerDesignName>Tarea Academica</ownerDesignName>
 <engineerTo>
 <item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
@@ -29,10 +29,23 @@
 <dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="STOCK" id="A4FCB9A5-75F0-24B8-FA2A-626669D39968">
+<Attribute name="FECHA" id="5A052C0F-4CED-3585-5EC5-CA83DBCEFA80">
 <createdBy>Jesus</createdBy>
-<createdTime>2022-09-27 21:50:32 UTC</createdTime>
-<commentInRDBMS><![CDATA[Stock disponible del ingrediente]]></commentInRDBMS>
+<createdTime>2022-09-29 20:06:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de la factura]]></commentInRDBMS>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<engineerTo>
+<item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL_A_PAGAR" id="B40749D6-879B-2F3C-6753-853E2DC7FB01">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:07:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Total a pagar, en la paga]]></commentInRDBMS>
 <ownerDesignName>Tarea Academica</ownerDesignName>
 <engineerTo>
 <item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
@@ -40,67 +53,53 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
+<dataTypePrecision>5</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PRECIO_UNITARIO" id="74093050-CC94-6748-F1C1-88245DEF3514">
+<Attribute name="FORMA_PAGO" id="85A30401-A13B-83B8-FDEF-AB13C1B2360B">
 <createdBy>Jesus</createdBy>
-<createdTime>2022-09-27 21:56:58 UTC</createdTime>
-<commentInRDBMS><![CDATA[Precio por unidad, del ingrediente]]></commentInRDBMS>
+<createdTime>2022-09-29 20:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[E -> EFECTIVO
+C -> CREDITO]]></commentInRDBMS>
 <ownerDesignName>Tarea Academica</ownerDesignName>
 <engineerTo>
 <item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_PROVEEDOR" id="F154443F-BF0B-F379-AEFE-CE38EBF4B0CC">
+<Attribute name="ID_ORDEN" id="5330377B-864D-A74F-37EB-EB0C74F7F205">
 <createdBy>Jesus</createdBy>
-<createdTime>2022-09-29 20:30:45 UTC</createdTime>
-<generatorID>77619ED8-EE4D-3FDE-DD52-F2CDFBC053C6</generatorID>
+<createdTime>2022-09-29 20:50:34 UTC</createdTime>
+<generatorID>A50F024D-862D-BD0F-02FB-20911234423A</generatorID>
 <ownerDesignName>Tarea Academica</ownerDesignName>
 <engineerTo>
 <item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
 </engineerTo>
-<referedAttribute>87090B0D-199B-C86B-7D04-7DAEFFDB1F6D</referedAttribute>
+<referedAttribute>A83D95C6-E0C8-5CFE-FCC9-595710F73046</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_DIMENSION" id="EF397E27-6B1F-9298-E7CB-0E88C3F95520">
-<createdBy>Jesus</createdBy>
-<createdTime>2022-09-29 20:31:45 UTC</createdTime>
-<generatorID>D6FA3A4F-A775-B2AF-E719-EFBAA2CC9D35</generatorID>
-<ownerDesignName>Tarea Academica</ownerDesignName>
-<engineerTo>
-<item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
-</engineerTo>
-<referedAttribute>5A9552B5-B134-5D21-30BC-B7619963485E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1 BYTE</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="DDC6CB62-C0D3-A57D-9DC0-D912814A0227" name="PROVEEDOR_INGREDIENTES PK">
+<identifier id="7B50A1D5-B8B5-8183-D36B-EF13E9EF3247" name="FACTURA PK">
 <createdBy>Jesus</createdBy>
-<createdTime>2022-09-27 21:50:15 UTC</createdTime>
+<createdTime>2022-09-29 20:06:44 UTC</createdTime>
 <ownerDesignName>Tarea Academica</ownerDesignName>
 <engineerTo>
 <item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C3F865B9-C250-99C7-0F8B-94AE8A2E8545</attributeRef>
+<attributeRef>10D0D40C-9475-6363-AF05-E69F9378BE16</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

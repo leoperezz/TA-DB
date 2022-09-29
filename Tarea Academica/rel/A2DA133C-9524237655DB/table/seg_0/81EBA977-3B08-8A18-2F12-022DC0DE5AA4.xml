@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81EBA977-3B08-8A18-2F12-022DC0DE5AA4" name="FACTURA">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>65FBCE89-C1AC-EA1D-2532-18DC83F2153A</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FACTURA" id="B9E22A18-371F-4D84-885D-9FCA7E76652B">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la factura]]></commentInRDBMS>
+<generatorID>10D0D40C-9475-6363-AF05-E69F9378BE16</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="73BBE6CA-C15B-0820-07A4-AD9D174983CE">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de la factura]]></commentInRDBMS>
+<generatorID>5A052C0F-4CED-3585-5EC5-CA83DBCEFA80</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_A_PAGAR" id="4D492E41-9FB0-4AB6-4C26-7FCF93369F61">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Total a pagar, en la paga]]></commentInRDBMS>
+<generatorID>B40749D6-879B-2F3C-6753-853E2DC7FB01</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORMA_PAGO" id="6BC9BC0F-564D-2BBF-3C00-CF1BF64BFE3B">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[E -> EFECTIVO
+C -> CREDITO]]></commentInRDBMS>
+<generatorID>85A30401-A13B-83B8-FDEF-AB13C1B2360B</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDENES_ID_ORDEN" id="36FAAAB9-8A56-D707-1399-B6F530757163">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>5330377B-864D-A74F-37EB-EB0C74F7F205</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABF8876A-4259-0B3F-761B-5C2ACD4576E1" referredColumn="4EDE5AFD-A2CA-E3BB-74F9-8FAC22CB4CA8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49514617-B6FF-9BAD-220C-464163937AE3" name="FACTURA_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>7B50A1D5-B8B5-8183-D36B-EF13E9EF3247</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9E22A18-371F-4D84-885D-9FCA7E76652B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B149DBD0-3924-47D4-DD17-D06C667EBBA5" name="FACTURA__IDX">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A50F024D-862D-BD0F-02FB-20911234423A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="36FAAAB9-8A56-D707-1399-B6F530757163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="639865C4-0376-E00D-17D3-084DCABEE124" name="FACTURA_ORDENES_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>A50F024D-862D-BD0F-02FB-20911234423A</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36FAAAB9-8A56-D707-1399-B6F530757163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

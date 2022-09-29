@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE0D8D6D-324A-44D9-F55B-0D50B4E27E09" name="PRODUCTOS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B726903B-B381-A53C-448E-4C5BF7D3A65E" name="PEDIDO">
 <createdBy>Jesus</createdBy>
-<createdTime>2022-09-27 22:22:24 UTC</createdTime>
+<createdTime>2022-09-29 20:01:30 UTC</createdTime>
 <ownerDesignName>Tarea Academica</ownerDesignName>
 <engineerTo>
 <item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_PRODUCTO" id="11598CCC-8693-BD34-206B-97DAD7E4DBC7">
+<Attribute name="ID_PEDIDO" id="3AA226B3-77AF-4A2E-8932-ABAAC1B10377">
 <createdBy>Jesus</createdBy>
-<createdTime>2022-09-27 22:22:36 UTC</createdTime>
-<commentInRDBMS><![CDATA[Identificador del producto]]></commentInRDBMS>
+<createdTime>2022-09-29 20:01:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del pedido de una de las sedes]]></commentInRDBMS>
 <ownerDesignName>Tarea Academica</ownerDesignName>
 <engineerTo>
 <item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
@@ -29,60 +29,61 @@
 <dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOMBRE" id="C42CAC9B-9C57-0AF8-3597-539AB7F48266">
+<Attribute name="FECHA_PED" id="8CB3DAE6-3A56-FB94-F541-542E90BBA082">
 <createdBy>Jesus</createdBy>
-<createdTime>2022-09-27 22:23:54 UTC</createdTime>
-<commentInRDBMS><![CDATA[Nombre del Producto]]></commentInRDBMS>
+<createdTime>2022-09-29 20:02:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dia que se registro el pedido]]></commentInRDBMS>
 <ownerDesignName>Tarea Academica</ownerDesignName>
 <engineerTo>
 <item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 BYTE</dataTypeSize>
-<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PRECIO" id="7B2365C0-48B7-293D-BF53-E06AA18348DD">
+<Attribute name="ID_MESA" id="AE1F4E41-C172-9D08-7A69-7B1083300676">
 <createdBy>Jesus</createdBy>
-<createdTime>2022-09-27 22:24:14 UTC</createdTime>
-<commentInRDBMS><![CDATA[Precio del producto]]></commentInRDBMS>
+<createdTime>2022-09-29 20:49:11 UTC</createdTime>
+<generatorID>5FCA76D6-6AEF-ACB0-4B4B-E7FFA934E29E</generatorID>
 <ownerDesignName>Tarea Academica</ownerDesignName>
 <engineerTo>
 <item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
 </engineerTo>
+<referedAttribute>24442406-0B6A-38F7-6239-493A7EB83E43</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SUCURSAL" id="F5F2D9E8-C806-047F-F283-64111822A0E9">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:49:11 UTC</createdTime>
+<generatorID>5FCA76D6-6AEF-ACB0-4B4B-E7FFA934E29E</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<engineerTo>
+<item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
+</engineerTo>
+<referedAttribute>FDEFC7A8-5002-F07E-ED2E-EBF8E7039EFB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DESCRIPCION" id="15DEDA12-E220-DFE5-2E12-844598D2869A">
-<createdBy>Jesus</createdBy>
-<createdTime>2022-09-27 22:33:14 UTC</createdTime>
-<commentInRDBMS><![CDATA[Descipcion detallada de lo que consta el producto]]></commentInRDBMS>
-<ownerDesignName>Tarea Academica</ownerDesignName>
-<engineerTo>
-<item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 BYTE</dataTypeSize>
-<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="AD47D983-74A0-1636-3E48-C552E797EBFD" name="PRODUCTOS PK">
+<identifier id="461466E4-7936-18A1-8FCF-234CCC0FDE8E" name="PEDIDO PK">
 <createdBy>Jesus</createdBy>
-<createdTime>2022-09-27 22:22:48 UTC</createdTime>
+<createdTime>2022-09-29 20:01:49 UTC</createdTime>
 <ownerDesignName>Tarea Academica</ownerDesignName>
 <engineerTo>
 <item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>11598CCC-8693-BD34-206B-97DAD7E4DBC7</attributeRef>
+<attributeRef>3AA226B3-77AF-4A2E-8932-ABAAC1B10377</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

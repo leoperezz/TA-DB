@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1199F8A1-C9F6-32F6-4575-C9872E774283" name="PROD_X_SUCURSAL">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUCURSALES_ID_SUCURSAL" id="5FC94F29-D00F-797F-5BB4-38F00BF60780">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48381DC5-DF18-B292-BB4A-1D8B894404D0" referredColumn="BDDE4B78-63DB-97E2-8C58-CAD80C5FA42E"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_ID_PRODUCTO" id="09BC171A-BBF5-EE2E-7043-0FB436061EFF">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A39D36A0-0F5C-2C79-761E-FAB03E20929C" referredColumn="836B1856-58D6-798F-9AB6-0DF9799EB17C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="819E79A4-4884-211F-164C-0E8646B571B9" name="PROD_X_SUCURSAL_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FC94F29-D00F-797F-5BB4-38F00BF60780"/>
+<colUsage columnID="09BC171A-BBF5-EE2E-7043-0FB436061EFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01009447-7AD6-9A4B-8A6F-B396CC5797D6" name="PROD_X_SUCURSAL_SUCURSALES_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>D0BB503F-5348-AE00-1E45-78530DB392E3</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FC94F29-D00F-797F-5BB4-38F00BF60780"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CD0142C-6C19-87A1-5F46-A4BC2CCE9967" name="PROD_X_SUCURSAL_PRODUCTO_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>D0BB503F-5348-AE00-1E45-78530DB392E3</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09BC171A-BBF5-EE2E-7043-0FB436061EFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

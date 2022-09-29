@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ABF8876A-4259-0B3F-761B-5C2ACD4576E1" containerWithKeyObject="81EBA977-3B08-8A18-2F12-022DC0DE5AA4" localFKIndex="639865C4-0376-E00D-17D3-084DCABEE124" name="FACTURA_ORDENES_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>A50F024D-862D-BD0F-02FB-20911234423A</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<referredTableLongName>ORDENES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>59D36E8D-3C5C-8DE5-281A-4D0FC069CB58</referredTableID>
+<keyObject>AB32E678-25D1-E7B0-587B-E13486030FC5</keyObject>
+<referredKeyID>AB32E678-25D1-E7B0-587B-E13486030FC5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ORDEN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

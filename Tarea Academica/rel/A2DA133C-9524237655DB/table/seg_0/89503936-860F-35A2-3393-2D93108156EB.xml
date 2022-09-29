@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89503936-860F-35A2-3393-2D93108156EB" name="DIMENSION">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>12FE5115-1817-E230-01FA-BA0B06C79F15</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DIMENSION" id="131620F6-91A8-EB90-1DB7-C73A45220B00">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la dimension (unidad) del ingrediente]]></commentInRDBMS>
+<generatorID>5A9552B5-B134-5D21-30BC-B7619963485E</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_DIMENSION" id="638A95A0-03A4-7B21-BB27-3C2137DD2921">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo de dimension que cuenta el ingrediente]]></commentInRDBMS>
+<generatorID>2B323B03-18F5-548C-301F-B8AC322160F8</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5693D771-F15D-457F-E1E2-63A25D55F0E1" name="DIMENSION_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>A7BBD5B7-23D5-2FF3-5301-51D06B181BB0</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="131620F6-91A8-EB90-1DB7-C73A45220B00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

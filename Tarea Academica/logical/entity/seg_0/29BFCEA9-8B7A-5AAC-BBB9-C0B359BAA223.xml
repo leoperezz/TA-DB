@@ -127,6 +127,36 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_SUCURSAL" id="489E7BFC-30BF-3164-1297-6738301E66FF">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:25:08 UTC</createdTime>
+<generatorID>DA5ED6BB-93F7-4A95-C422-3D0A919712DE</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<engineerTo>
+<item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
+</engineerTo>
+<referedAttribute>4FBBF192-BEBC-9BB1-E342-DED69A53A528</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CARGO" id="E77B3CDD-70C7-DC5B-F2AB-A75994AE2E96">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:25:30 UTC</createdTime>
+<generatorID>9AD7A792-5479-1114-3683-CB7B7F626B34</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<engineerTo>
+<item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
+</engineerTo>
+<referedAttribute>759441B2-ED01-31A8-0A89-B2DCD8189AD4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="DFC718AB-95FF-1F3B-4CD7-586B7234313C" name="EMPLEADOS PK">

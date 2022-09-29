@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INGRE_X_SUCURSAL" directorySegmentName="seg_0" id="BC39AA8B-85CE-466C-CE23-E678994E44F1">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:27:16 UTC</createdTime>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<engineerTo>
+<item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3E939651-DE4F-30CC-443A-1D817F35DBB2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F6D73CF7-1647-59A1-C5BD-D035F481A4BC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

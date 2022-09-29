@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B2AE2D7-6676-7C3F-B43E-D107F837DB96" name="INGREDIENTES">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>F6D73CF7-1647-59A1-C5BD-D035F481A4BC</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_INGREDIENTE" id="FC66C6CE-C3AD-ADF3-D322-0D76D1C8E741">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de cada ingrediente]]></commentInRDBMS>
+<generatorID>C3F865B9-C250-99C7-0F8B-94AE8A2E8545</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOCK" id="BF06A9A9-8D55-E345-D664-381CA14D78E2">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Stock disponible del ingrediente]]></commentInRDBMS>
+<generatorID>A4FCB9A5-75F0-24B8-FA2A-626669D39968</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_UNITARIO" id="63F84F26-3C19-6342-9B61-E6D0828DB1A1">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Precio por unidad, del ingrediente]]></commentInRDBMS>
+<generatorID>74093050-CC94-6748-F1C1-88245DEF3514</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVEEDORES_ID_PROVEEDOR" id="784142D3-5850-5CCC-8BD9-0D314D279E3E">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>F154443F-BF0B-F379-AEFE-CE38EBF4B0CC</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24D6A3CA-558B-27FC-7078-1B5394A7B57B" referredColumn="1B60D80F-6F32-C605-3897-313FC78987EA"/>
+</associations>
+</Column>
+<Column name="DIMENSION_ID_DIMENSION" id="A482BD2A-B60B-7977-E8AB-0B002CAFCE5C">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>EF397E27-6B1F-9298-E7CB-0E88C3F95520</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B130C69-5298-D975-359A-7B657644B819" referredColumn="131620F6-91A8-EB90-1DB7-C73A45220B00"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="394836CE-E596-8A3C-DE99-FBA02E852015" name="INGREDIENTES_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>DDC6CB62-C0D3-A57D-9DC0-D912814A0227</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC66C6CE-C3AD-ADF3-D322-0D76D1C8E741"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="616FE80C-1CB6-EFEF-999F-1DF2B7B901FD" name="INGREDIENTES_PROVEEDORES_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>77619ED8-EE4D-3FDE-DD52-F2CDFBC053C6</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="784142D3-5850-5CCC-8BD9-0D314D279E3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A117D82-89EA-85D9-CC33-02FB0E3132D5" name="INGREDIENTES_DIMENSION_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:53:07 UTC</createdTime>
+<generatorID>D6FA3A4F-A775-B2AF-E719-EFBAA2CC9D35</generatorID>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A482BD2A-B60B-7977-E8AB-0B002CAFCE5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

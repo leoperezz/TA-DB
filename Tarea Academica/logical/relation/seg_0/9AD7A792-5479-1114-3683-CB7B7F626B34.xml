@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CARGO_EMPLEADO" directorySegmentName="seg_0" id="9AD7A792-5479-1114-3683-CB7B7F626B34">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:25:30 UTC</createdTime>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<engineerTo>
+<item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
+</engineerTo>
+<sourcePk>05CF1EBE-FF9D-E375-618E-6C7A0FD4FA4C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>79D0F32F-0737-140D-5CBC-595EEA1559B6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>29BFCEA9-8B7A-5AAC-BBB9-C0B359BAA223</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

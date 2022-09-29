@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ORDEN_FACTURA" directorySegmentName="seg_0" id="A50F024D-862D-BD0F-02FB-20911234423A">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-09-29 20:50:34 UTC</createdTime>
+<ownerDesignName>Tarea Academica</ownerDesignName>
+<engineerTo>
+<item key="A2DA133C-6926-252F-219F-9524237655DB" value="true"/>
+</engineerTo>
+<sourcePk>8F6ADA73-9FF8-5C5F-6045-4C842E797116</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9A8382B2-D629-637B-E90E-7E7436B81184</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>65FBCE89-C1AC-EA1D-2532-18DC83F2153A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
