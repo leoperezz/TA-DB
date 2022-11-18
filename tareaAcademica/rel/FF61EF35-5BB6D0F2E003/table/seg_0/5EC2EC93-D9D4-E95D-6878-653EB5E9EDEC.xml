@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EC2EC93-D9D4-E95D-6878-653EB5E9EDEC" name="SUC_X_INGRED">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:40:43 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUCURSAL_ID_SUCURSAL" id="EA9C9EBE-24ED-6A1C-5A95-503B555DD353">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:40:43 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D02378E0-ED2B-C93A-41AB-8D7DE5B56601" referredColumn="239ED400-CE99-B9C8-0CF9-BDC4A1C1C0DF"/>
+</associations>
+</Column>
+<Column name="INGREDIENTE_ID_INGREDIENTE" id="88F44EFB-B0BD-D703-034C-A5132FE6E317">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:40:43 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E56F5FD-1672-56BB-68CF-73D1B309686B" referredColumn="836AC98E-8078-7A7A-82A3-5E334266C5E3"/>
+</associations>
+</Column>
+<Column name="CANTIDAD" id="E54EBE1A-90FB-A541-46E3-74782C1AFBC5">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:40:43 UTC</createdTime>
+<generatorID>06096CA5-98AD-A7AA-5288-2A5914A73F7C</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71383D49-6CEA-82F6-8C20-B0C558B8646C" name="SUC_X_INGRED_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:40:43 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA9C9EBE-24ED-6A1C-5A95-503B555DD353"/>
+<colUsage columnID="88F44EFB-B0BD-D703-034C-A5132FE6E317"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A77E9C6F-623C-07CC-783E-98E7D673EE00" name="SUC_X_INGRED_SUCURSAL_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:40:43 UTC</createdTime>
+<generatorID>34129812-E823-E5D0-20C5-FE4749928479</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA9C9EBE-24ED-6A1C-5A95-503B555DD353"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA706656-A0F7-4165-682A-309DE017E8D9" name="SUC_X_INGRED_INGREDIENTE_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:40:43 UTC</createdTime>
+<generatorID>34129812-E823-E5D0-20C5-FE4749928479</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88F44EFB-B0BD-D703-034C-A5132FE6E317"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

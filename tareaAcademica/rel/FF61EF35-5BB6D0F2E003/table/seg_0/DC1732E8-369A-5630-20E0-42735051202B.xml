@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC1732E8-369A-5630-20E0-42735051202B" name="EMPLEADO">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<generatorID>12D19AE1-BC36-D780-6C12-FA5B9942DC72</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPLEADO" id="EF64EAD8-E399-42E9-1444-EDD12F51BD82">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de cada empleado]]></commentInRDBMS>
+<generatorID>B5EDE0DC-B90A-DB36-54E3-2C851014BCC5</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="9CA0EA39-38F0-7241-F84E-CC98614A0AF3">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre(s) del empleado]]></commentInRDBMS>
+<generatorID>FE5460DE-86E2-2C38-AAF1-DCBE8DA6B294</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AP_MATERNO" id="C15565DE-5FD1-15B7-C435-7C7C8D3D8E76">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Apellido materno del empleado]]></commentInRDBMS>
+<generatorID>D2FF8205-C3FA-D904-CF18-8A34F9A349AC</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AP_PATERNO" id="99E3C43F-CEE6-4FB4-1A19-5414A8947064">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Apellido paterno del empleado]]></commentInRDBMS>
+<generatorID>9F5840C6-4EEE-B929-B5F8-6E07C8626F03</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SUCURSAL" id="369C650A-8C2A-52F9-6730-30DF29FAC6F1">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<generatorID>8911EECC-9B0B-5AC7-FC29-07037B67D196</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARGO_ID_CARGO" id="5449BA24-E481-EA8C-64A1-3C6B33FF1B87">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<generatorID>6A40D6F7-DA7E-85D5-40A8-E3D59CAEDB88</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65E10DC3-01F9-2E6E-CDAA-EF2A1DC23316" referredColumn="5492A48C-E278-36CD-ED57-B727E9AB784F"/>
+</associations>
+</Column>
+<Column name="SUCURSAL_ID_SUCURSAL" id="0D6B12BC-F392-2819-ECD1-EC0BBC6F83DD">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:49:43 UTC</createdTime>
+<generatorID>744CEFC0-735D-FB47-65EB-564319EBDE58</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="541D65E9-59ED-C710-4BF1-66830E23E6A6" referredColumn="239ED400-CE99-B9C8-0CF9-BDC4A1C1C0DF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="518318AB-7471-7DE6-C469-E99B95419F69" name="EMPLEADO_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<generatorID>4145CC65-1C4C-D655-C488-733B92811B4E</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF64EAD8-E399-42E9-1444-EDD12F51BD82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A42C912D-20BC-609D-3093-CDA6637C8667" name="EMPLEADO_CARGO_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>B1B37E07-96A2-3D0A-9502-B16153772097</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5449BA24-E481-EA8C-64A1-3C6B33FF1B87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C4E77DB-658D-EA4F-6741-E84257CD4FE4" name="EMPLEADO_SUCURSAL_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:40:43 UTC</createdTime>
+<generatorID>F28890E5-F02B-CC82-6766-3CB6E13BCCB0</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D6B12BC-F392-2819-ECD1-EC0BBC6F83DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0EA4F12-A6CA-5EC7-C704-F6B1992FA7ED" name="CLIENTE">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:57:50 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CLIENTE" id="BC4D7B58-931E-B08D-58A2-9CE8A022C257">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:57:55 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="D70203B3-BE07-80A8-2E1A-CD7CCDEB3BF1">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:58:03 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AP_MATERNO" id="49F5EAC5-1F03-1CEB-FDA8-0AC7E948AF97">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:58:26 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AP_PATERNO" id="9263D600-369C-CDF9-EC2F-64911ABDC785">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:58:14 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="D41B25D5-C1EA-3AB5-FE55-48E92CCC983C">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:58:41 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="784978FE-2ED1-844B-066C-064C76D95047" name="CLIENTE PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:58:02 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC4D7B58-931E-B08D-58A2-9CE8A022C257</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

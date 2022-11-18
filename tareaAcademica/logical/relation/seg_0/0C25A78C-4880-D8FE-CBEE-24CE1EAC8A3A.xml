@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PEDIDO_X_PLATILLO" directorySegmentName="seg_0" id="0C25A78C-4880-D8FE-CBEE-24CE1EAC8A3A">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 04:30:53 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>55486B43-0CFB-F838-D80D-85CC204D8242</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6F2A9C49-49DC-D8E0-2FBF-BE9082A5FEF0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="DIA" id="37E91B3D-7C4E-01B7-48B0-5A119436623F">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:53:32 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="CANTIDAD" id="04578B4F-67B5-F92E-7BC9-E6451A01645D">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:53:43 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+</attribute>
+<attribute name="NOMBRE" id="0FFBBC9B-C164-8777-4D7E-54E7241048F6">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:53:57 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

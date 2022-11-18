@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6F2A9C49-49DC-D8E0-2FBF-BE9082A5FEF0" name="PLATILLO">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:02:21 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PLATILLO" id="DF87257A-8BA0-44A1-79AC-52AFE208E4A6">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:02:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del platillo]]></commentInRDBMS>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="4B0F0342-5C12-9684-8A25-C45E03FB2A4F">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:02:55 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECIO" id="6EB9F633-EC52-4AFC-5D94-E8DB06CE9E90">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:03:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Precio del platillo]]></commentInRDBMS>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCIÓN" id="89E06FAC-EB73-D72C-B54F-9631968E552A">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:03:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripción de lo que contiene el producto]]></commentInRDBMS>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STOCK" id="78DB338E-D1A1-70CA-1732-4975B6D9CA6E">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:03:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cantida del producto por día]]></commentInRDBMS>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2CA6E93-DAAF-9AF0-EDC8-0A591328E961" name="PLATILLO PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:02:48 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF87257A-8BA0-44A1-79AC-52AFE208E4A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

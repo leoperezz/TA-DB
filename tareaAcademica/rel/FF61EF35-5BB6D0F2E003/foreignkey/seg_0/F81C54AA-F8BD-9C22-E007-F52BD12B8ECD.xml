@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F81C54AA-F8BD-9C22-E007-F52BD12B8ECD" containerWithKeyObject="48195FB3-B475-857E-943A-44EC245ED05C" localFKIndex="E574FE80-FDA5-1F06-856F-80E6D036D346" name="INGRED_PROV_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:25:42 UTC</createdTime>
+<generatorID>E5EE500B-847F-0073-F556-3EE30F32ED5E</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<referredTableLongName>PROVEEDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F31E85F4-669E-0EE0-75F7-0B7FA9ABCEF5</referredTableID>
+<keyObject>5DF13BC8-35D8-8C5C-E952-93F6B7B175EF</keyObject>
+<referredKeyID>5DF13BC8-35D8-8C5C-E952-93F6B7B175EF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PROVEEDOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

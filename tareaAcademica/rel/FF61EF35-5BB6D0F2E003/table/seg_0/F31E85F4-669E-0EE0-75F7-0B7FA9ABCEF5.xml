@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F31E85F4-669E-0EE0-75F7-0B7FA9ABCEF5" name="PROVEEDOR">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:25:42 UTC</createdTime>
+<generatorID>23D2C55A-3959-4FD5-718C-AD10F425CC1D</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<ordsAlias>proveedorv1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROVEEDOR" id="484448DB-BB43-CD7A-8610-DCEC77599A91">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:25:42 UTC</createdTime>
+<generatorID>4945942A-E6C4-0D52-F7AC-A632E334D788</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="ADD17494-5E5F-CE90-F4BB-FC2C882CA05C">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:25:42 UTC</createdTime>
+<generatorID>0C3E8314-E65E-1D8D-2EA0-26F7F5C774DE</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUC" id="E9AD9F00-40C6-A171-68E5-FF5149578D0C">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:25:42 UTC</createdTime>
+<generatorID>A3DA502E-2042-D475-EE9A-134391ED0146</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="834F0DE7-BB03-651B-3F90-A6635CC7B43C">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:25:42 UTC</createdTime>
+<generatorID>7B9200FF-1EB3-ECC4-C4D1-683C8248F8CB</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPRA_ID_COMPRA" id="0FCB1DB2-C680-4A0A-5C4E-39C8E3F0F766">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:25:42 UTC</createdTime>
+<generatorID>B7F488C7-0880-11FF-1D33-AE37C460EA0F</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA3FC064-A3FA-4253-1162-5D8AF75910AD" referredColumn="13E04C30-0445-CDB8-ACD1-CC435FA5534A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DF13BC8-35D8-8C5C-E952-93F6B7B175EF" name="PROVEEDOR_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:25:42 UTC</createdTime>
+<generatorID>146B5A6A-4DFB-6744-3AB7-C4E018AEDA62</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="484448DB-BB43-CD7A-8610-DCEC77599A91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F582945-BF46-3FA2-A27F-CE1E0679A4D8" name="PROVEEDOR_COMPRA_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:25:42 UTC</createdTime>
+<generatorID>6DB76E07-450E-A8D1-8917-CE1FED45ED9E</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FCB1DB2-C680-4A0A-5C4E-39C8E3F0F766"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

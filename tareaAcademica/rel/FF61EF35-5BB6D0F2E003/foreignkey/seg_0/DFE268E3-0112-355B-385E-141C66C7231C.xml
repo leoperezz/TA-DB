@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DFE268E3-0112-355B-385E-141C66C7231C" containerWithKeyObject="48195FB3-B475-857E-943A-44EC245ED05C" localFKIndex="BB88420B-C663-6FDA-AA73-7710F813A94E" name="INGRED_UNI_DIV_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>16306DDC-5000-443B-3B7C-E96FB415BF01</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<referredTableLongName>UNIDAD_DIVISORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A4BBE42B-A981-CE0A-24C5-26856F25BBC8</referredTableID>
+<keyObject>DF8F4C92-9FB5-3587-3FE4-C3D6A589A70D</keyObject>
+<referredKeyID>DF8F4C92-9FB5-3587-3FE4-C3D6A589A70D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_UNIDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

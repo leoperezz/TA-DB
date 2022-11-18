@@ -1,0 +1,25 @@
+Definición del problema, para poder entenderlo mejor
+
+Lista de platos:
+
+menú para el almuerzo, digamos el plato es más de consumo directo
+plato preparados.
+
+Menú -> 
+
+Forma inversa:
+
+1) Ver la lista -> pedimos el plato -> servirmos el plato
+2) toma el menú -> avisa en a la cocina el menú
+3) Entrada -> Plato principal -> acompañamiento -> refresco
+
+
+4) Producción
+5) consumo
+6) Ventas
+7) servir
+
+
+hora de trabajo de los empleados
+Orden con pedido
+Pedidos a varias mesas, y tener relación a un cliente

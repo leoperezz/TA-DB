@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A14830F2-CFB4-DB42-22AA-D0764C65E932" name="PEDIDO_X_PLATILLO">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PEDIDO_ID_PEDIDO" id="539CCC59-7643-BD35-FADC-A0DFECD10513">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="990B721E-8A7E-4F7F-E23C-B5267477846B" referredColumn="BC1E5164-33FF-B9F5-FE36-7C405ED39865"/>
+</associations>
+</Column>
+<Column name="PLATILLO_ID_PLATILLO" id="1CCB32A6-0B42-9C8E-957A-55D1BD633607">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C2C34FC-9105-2C61-3230-CEF488F57BE6" referredColumn="F4A8E797-B9BB-0A8D-0F0B-FCC4C21E14EB"/>
+</associations>
+</Column>
+<Column name="DIA" id="2225BE0A-69C8-7510-BBA1-503592C5D481">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:17:36 UTC</createdTime>
+<generatorID>37E91B3D-7C4E-01B7-48B0-5A119436623F</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="CANTIDAD" id="EE2A8443-0537-A4E1-28C7-D6671E07B5C7">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:17:36 UTC</createdTime>
+<generatorID>04578B4F-67B5-F92E-7BC9-E6451A01645D</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="NOMBRE" id="0EC6122E-4DDF-A83B-1A0E-DF61173937AA">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:17:36 UTC</createdTime>
+<generatorID>0FFBBC9B-C164-8777-4D7E-54E7241048F6</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74F2350F-D12E-5D49-096E-568370128BAF" name="PEDIDO_X_PLATILLO_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="539CCC59-7643-BD35-FADC-A0DFECD10513"/>
+<colUsage columnID="1CCB32A6-0B42-9C8E-957A-55D1BD633607"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0448532D-04A5-8961-2ACF-0A38063BD75D" name="PEDIDO_X_PLATILLO_PEDIDO_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>0C25A78C-4880-D8FE-CBEE-24CE1EAC8A3A</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="539CCC59-7643-BD35-FADC-A0DFECD10513"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CACD6B88-E0E5-48E9-9F9D-F96001F4EB55" name="PEDIDO_X_PLATILLO_PLATILLO_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>0C25A78C-4880-D8FE-CBEE-24CE1EAC8A3A</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CCB32A6-0B42-9C8E-957A-55D1BD633607"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

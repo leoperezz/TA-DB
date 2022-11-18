@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMPRA_X_INGRED" directorySegmentName="seg_0" id="D9C29418-2997-5961-5C21-CFFB0B256B84">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 04:37:57 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>99678295-3536-25EF-8741-5D6CB525E5BB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BBC0E988-C9E2-1BDA-C31A-D2CEC1477D11</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="CANTIDAD" id="6E287E10-6724-B1B3-8C5F-819E304EF93C">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 04:38:09 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

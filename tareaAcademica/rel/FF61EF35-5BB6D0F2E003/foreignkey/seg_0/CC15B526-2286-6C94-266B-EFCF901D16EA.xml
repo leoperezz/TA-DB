@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC15B526-2286-6C94-266B-EFCF901D16EA" containerWithKeyObject="1333370C-CEBC-4FCF-AAD0-F7BCDDAABEB3" localFKIndex="948A6147-9C95-DBA3-098B-8EB5B4E091C1" name="PLAT_X_INGRED_INGREDIENTE_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>78FABF0C-8DAB-1CBE-E23E-32117548D539</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<referredTableLongName>INGREDIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>48195FB3-B475-857E-943A-44EC245ED05C</referredTableID>
+<keyObject>ACF0BEC4-DC26-1E98-28F7-1E4E48C8D987</keyObject>
+<referredKeyID>ACF0BEC4-DC26-1E98-28F7-1E4E48C8D987</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_INGREDIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

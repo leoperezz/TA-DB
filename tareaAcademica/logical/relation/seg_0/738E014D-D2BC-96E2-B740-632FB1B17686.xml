@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMP_HIST_LAB" directorySegmentName="seg_0" id="738E014D-D2BC-96E2-B740-632FB1B17686">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 04:10:16 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<sourcePk>4145CC65-1C4C-D655-C488-733B92811B4E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12D19AE1-BC36-D780-6C12-FA5B9942DC72</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>706448CF-D02C-983C-4B9C-88F7D1292C23</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

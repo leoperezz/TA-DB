@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="042F579A-4E7A-C621-D98A-30494A110287" name="COMPRA_X_INGRED">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COMPRA_ID_COMPRA" id="F9CE7A89-0705-FCB2-8C03-5AD78E654B80">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8C15BBE-3FFB-9A82-E284-7ECF90057939" referredColumn="13E04C30-0445-CDB8-ACD1-CC435FA5534A"/>
+</associations>
+</Column>
+<Column name="INGREDIENTE_ID_INGREDIENTE" id="A7F6CF1E-B3D4-26E7-A4D7-7E2F60DE2E9B">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0CEB1E1-E9DD-CF45-57A6-364268C200A2" referredColumn="836AC98E-8078-7A7A-82A3-5E334266C5E3"/>
+</associations>
+</Column>
+<Column name="CANTIDAD" id="A474CE01-FAF0-9815-0D01-50684FF6E053">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>6E287E10-6724-B1B3-8C5F-819E304EF93C</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4919D9E3-961C-ECD8-06BB-AA5DFB61F90E" name="COMPRA_X_INGRED_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9CE7A89-0705-FCB2-8C03-5AD78E654B80"/>
+<colUsage columnID="A7F6CF1E-B3D4-26E7-A4D7-7E2F60DE2E9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A80598E6-0C0A-F119-D926-D44A0C658691" name="COMPRA_X_INGRED_COMPRA_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>D9C29418-2997-5961-5C21-CFFB0B256B84</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9CE7A89-0705-FCB2-8C03-5AD78E654B80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC76F6D2-5E9B-A85C-E08E-30CC9D13B429" name="COMPRA_X_INGRED_INGREDIENTE_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>D9C29418-2997-5961-5C21-CFFB0B256B84</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7F6CF1E-B3D4-26E7-A4D7-7E2F60DE2E9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

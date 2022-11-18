@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99678295-3536-25EF-8741-5D6CB525E5BB" name="COMPRA">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 04:33:28 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_COMPRA" id="6F0FAB86-BBCD-2B00-C02A-435A5D888EBF">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 04:38:24 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SUCURSAL" id="9EBB1BB2-8091-B09F-1954-9A366B90CA67">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 04:36:31 UTC</createdTime>
+<generatorID>06586464-7029-656A-B502-6D5CC27AC116</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<referedAttribute>51DC5D15-B503-6217-0F9C-16578FCFDCA8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="14FD46F4-112F-9716-C486-3CF7339C33CA">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 04:38:34 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69DE131C-AF96-EA7C-B6FC-FC2763753A44" name="COMPRA PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 04:38:32 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F0FAB86-BBCD-2B00-C02A-435A5D888EBF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

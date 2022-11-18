@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC63EDCA-2E58-D225-0FC7-87B8BDBF580A" containerWithKeyObject="48041BCF-DCCD-3BE5-2C32-68BB28EAD5F7" localFKIndex="47BECB1A-AAD4-5980-B02C-C61C814DB9EC" name="COMPROBANTE_DE_PAGO_ORDEN_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:40:43 UTC</createdTime>
+<generatorID>23CC3E19-60EE-5CDC-658C-40ADF6409809</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<referredTableLongName>ORDEN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C8924635-396D-B40A-3606-2BC8A4458562</referredTableID>
+<keyObject>E826A691-D734-3376-048B-92661C43CE70</keyObject>
+<referredKeyID>E826A691-D734-3376-048B-92661C43CE70</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ORDEN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

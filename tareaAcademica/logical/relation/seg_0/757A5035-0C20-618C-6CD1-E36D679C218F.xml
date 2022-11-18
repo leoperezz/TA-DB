@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PED_X_MESA" directorySegmentName="seg_0" id="757A5035-0C20-618C-6CD1-E36D679C218F">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 04:22:48 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<sourcePk>9E3E398E-274A-4572-C1EA-48712AC94E71</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7BD45BE2-79D9-D733-0FD6-6B3D2DD30B5E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>55486B43-0CFB-F838-D80D-85CC204D8242</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC7E6C67-20AA-CD8F-738A-6DB570CF6856" name="FACTURA">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>9D37EBCC-1FA3-14BB-D6D6-94EF84C99ED2</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMPROBANTE" id="CEB0ED9A-D2A2-2BA4-372D-186BD4DDA48E">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>50B46E74-66E8-9D58-8085-0083EEBD83ED</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C39D1520-3EE3-E474-1189-4F881FAE64F0" referredColumn="3D91C201-FC31-5EAC-33E8-23494AA5496F"/>
+</associations>
+</Column>
+<Column name="MONTO_TOTAL" id="59342A76-E5F7-A42C-AD1B-0E33C8EDFBB3">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>522C09D6-4DCE-F0A9-265C-50545C93DCE4</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUC" id="9A48ED4B-A76D-7276-F516-56B40F874605">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>C5A6C93A-E567-4583-4ED5-24E86E9D243A</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAZON_SOCIAL" id="0B216FDA-5686-DFEB-6F04-BDB52B73F34B">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>58CE543B-23C8-0120-F809-945B1D06EBBD</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_FACTURA" id="63F1C98A-976B-87BD-59AD-2F651A8958B4">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:17:36 UTC</createdTime>
+<generatorID>6657B103-5FCA-F29D-8FBF-08A03DF34C8F</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANCOv1_ID_BANCO" id="F955EF96-78A1-B389-0010-14BA5CA4293D">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:17:36 UTC</createdTime>
+<generatorID>140744BA-B7F1-63B9-DA47-080B65ED73E4</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84ED2EE7-7B65-F3EA-C7CB-D32059BCE120" name="FACTURA_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>7FCC4BC2-7636-E289-0EC3-3ABFB67CE557</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEB0ED9A-D2A2-2BA4-372D-186BD4DDA48E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5193C949-1903-0D4B-E87E-3D7A1A016343" name="FACTURA_PKv1">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:17:36 UTC</createdTime>
+<generatorID>C09B5B84-C173-C898-13DE-845DD5C96A83</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63F1C98A-976B-87BD-59AD-2F651A8958B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB45A250-332B-C938-8555-6D6EF7F5AE7A" name="FACTURA_COMPROBANTE_DE_PAGO_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>E826E4A7-79C4-0A5C-2ACA-F9F0582E4BDE</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEB0ED9A-D2A2-2BA4-372D-186BD4DDA48E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

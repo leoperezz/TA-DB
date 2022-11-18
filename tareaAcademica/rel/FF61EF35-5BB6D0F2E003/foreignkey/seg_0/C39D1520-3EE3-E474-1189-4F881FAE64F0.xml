@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C39D1520-3EE3-E474-1189-4F881FAE64F0" containerWithKeyObject="FC7E6C67-20AA-CD8F-738A-6DB570CF6856" localFKIndex="CB45A250-332B-C938-8555-6D6EF7F5AE7A" name="FACTURA_COMPROBANTE_DE_PAGO_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>E826E4A7-79C4-0A5C-2ACA-F9F0582E4BDE</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<referredTableLongName>COMPROBANTE_DE_PAGO</referredTableLongName>
+<arc>20BD2588-A63B-79BC-E54F-1943716437B7</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>48041BCF-DCCD-3BE5-2C32-68BB28EAD5F7</referredTableID>
+<keyObject>9C6CA079-F917-D7BA-02B9-1B41102A848C</keyObject>
+<referredKeyID>9C6CA079-F917-D7BA-02B9-1B41102A848C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_COMPROBANTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>F</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

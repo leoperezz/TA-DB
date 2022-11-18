@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0086756A-9352-FB77-FEE2-C6BA38A82903" name="COMPROBANTE_DE_PAGO">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:52:32 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_COMPROBANTE" id="50B46E74-66E8-9D58-8085-0083EEBD83ED">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:52:39 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="8CF9665F-C024-79CE-9DC8-5ACA4D8767B6">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:53:05 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL_A_PAGAR" id="C05AF55C-ED10-B949-CD01-8C96457A1925">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:53:11 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ORDEN" id="1DEDAF42-2448-7D29-310B-F32B17B521B0">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 04:23:53 UTC</createdTime>
+<generatorID>23CC3E19-60EE-5CDC-658C-40ADF6409809</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<referedAttribute>632E055B-0397-922B-B2F4-1748E48BF623</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLIENTE" id="02C1FF9D-8E46-3399-53BE-B460CDCFC92E">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 04:25:40 UTC</createdTime>
+<generatorID>CEA9C570-E10E-F093-7AC8-9940BC712066</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<referedAttribute>BC4D7B58-931E-B08D-58A2-9CE8A022C257</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_COMPROBANTE" id="010E1BDC-2F51-840C-C944-37FF393C246E">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:48:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[B -> Boleta
+F -> Factura]]></commentInRDBMS>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7FCC4BC2-7636-E289-0EC3-3ABFB67CE557" name="COMPROBANTE_DE_PAGO PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:53:04 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>50B46E74-66E8-9D58-8085-0083EEBD83ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

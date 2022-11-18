@@ -17,7 +17,7 @@ Para poder descargar el modelo relacional, así como el contendio extra de la ba
 
 <center>
 
-![Descarga del repositorio](Imagenes/vista0.png)
+![Descarga del repositorio](Img/vista0.png)
 </center>
 
 - Podemos descargar el zip y posteriormente descomprimirlo.
@@ -35,18 +35,26 @@ Abrirmos el Oracle SQL, y nos dirigimos a la dirección que aparece en la imagen
 
 <center>
 
-![Paso #1](Imagenes/vista1.jpeg)
+![Paso #1](Img/vista1.jpeg)
 </center>
 
 ### Paso 2
 
 Buscamos la dirección donde descargamos el contenido del repositorio, aceptamos
-
 y nos debería salir la siguiente página.
 
-![Paso #2](Imagenes/vista2.jpeg)
-![Paso #3](Imagenes/vista3.jpeg)
+![Paso #2](Img/vista2.jpeg)
+![Paso #3](Img/vista3.jpeg)
 
 # Primer Modelo Relacional del proyecto
 
-![Primer Modelo](Imagenes/PrimerModelo.png)
+Presenta erroes y correciones, de las.
+
+![Primer Modelo](Img/PrimerModelo.png)
+<center>
+
+![Errores del Primer Modelo](Img/erroresPrimerModelo.png)
+
+</center>
+
+Día MIERCOLES 16/11/2022 subida del nuevo modelo de la base de datos

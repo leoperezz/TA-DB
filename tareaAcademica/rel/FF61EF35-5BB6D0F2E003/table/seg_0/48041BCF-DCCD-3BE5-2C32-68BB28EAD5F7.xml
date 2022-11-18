@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48041BCF-DCCD-3BE5-2C32-68BB28EAD5F7" name="COMPROBANTE_DE_PAGO">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>0086756A-9352-FB77-FEE2-C6BA38A82903</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMPROBANTE" id="3D91C201-FC31-5EAC-33E8-23494AA5496F">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>50B46E74-66E8-9D58-8085-0083EEBD83ED</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="F1D64769-9B0F-B84B-700C-36EC650C76CD">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>8CF9665F-C024-79CE-9DC8-5ACA4D8767B6</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_A_PAGAR" id="7F03B186-4081-11BE-2D70-C4FAB604BE13">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>C05AF55C-ED10-B949-CD01-8C96457A1925</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ORDEN" id="89C5CE64-5D6A-7979-B6FE-B66BD7E9B7CC">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>1DEDAF42-2448-7D29-310B-F32B17B521B0</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC63EDCA-2E58-D225-0FC7-87B8BDBF580A" referredColumn="92D8498D-B700-E59E-1D33-9ADEF9F4729F"/>
+</associations>
+</Column>
+<Column name="FORMA_DE_PAGO" id="FC8E33E8-F433-96BB-0475-5B2396031BEE">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indicador, que nos servirá para saber con que medio esta pagando
+E -> EFECTIVO
+C -> CREDITO]]></commentInRDBMS>
+<generatorID>6DBA6FE3-949E-7535-E736-C1140D33F2B0</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENTE" id="272A66FE-E16B-1BA9-E049-956BD246C870">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>02C1FF9D-8E46-3399-53BE-B460CDCFC92E</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3018E6E0-4F81-A4DD-8012-65543946E7DF" referredColumn="D2029588-CDD0-BBB8-D1FC-CEA67651DBFC"/>
+</associations>
+</Column>
+<Column name="TIPO_COMPROBANTE" id="6547E108-3867-1489-2E2D-59E51D652460">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:17:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[B -> Boleta
+F -> Factura]]></commentInRDBMS>
+<generatorID>010E1BDC-2F51-840C-C944-37FF393C246E</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C6CA079-F917-D7BA-02B9-1B41102A848C" name="COMPROBANTE_DE_PAGO_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>7FCC4BC2-7636-E289-0EC3-3ABFB67CE557</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D91C201-FC31-5EAC-33E8-23494AA5496F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE4A753C-20E5-D182-E7D0-EAADEB9925F6" name="COMPROBANTE_DE_PAGO__IDX">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:40:43 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>23CC3E19-60EE-5CDC-658C-40ADF6409809</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="89C5CE64-5D6A-7979-B6FE-B66BD7E9B7CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3EF216D-2366-3AF1-A053-F43C5571F06F" name="COMPROBANTE_DE_PAGO_CLIENTE_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>CEA9C570-E10E-F093-7AC8-9940BC712066</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="272A66FE-E16B-1BA9-E049-956BD246C870"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47BECB1A-AAD4-5980-B02C-C61C814DB9EC" name="COMPROBANTE_DE_PAGO_ORDEN_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:40:43 UTC</createdTime>
+<generatorID>23CC3E19-60EE-5CDC-658C-40ADF6409809</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89C5CE64-5D6A-7979-B6FE-B66BD7E9B7CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

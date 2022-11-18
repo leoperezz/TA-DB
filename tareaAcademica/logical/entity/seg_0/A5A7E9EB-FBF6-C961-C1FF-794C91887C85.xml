@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5A7E9EB-FBF6-C961-C1FF-794C91887C85" name="CARGO">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:28:21 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CARGO" id="26B2E644-42A7-2B70-AE46-8516E0D962F1">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:28:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del cargo:
+C -> cocinero
+S -> seguridad
+L -> Limpieza
+CJ -> CAJERO
+G -> GERENTE]]></commentInRDBMS>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="DA72B87F-BA93-35EC-2398-E1F51991DA75">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:29:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del cargo]]></commentInRDBMS>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F53417DB-1761-5DAF-5C05-5F16C08A0AF5" name="CARGO PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:28:41 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26B2E644-42A7-2B70-AE46-8516E0D962F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

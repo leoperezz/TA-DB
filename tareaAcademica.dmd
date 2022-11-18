@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tareaAcademica" id="73AD3A0C-FE83-84B9-8D88-E2EA82C53FB6" version="3.5">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 02:55:56 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>73AD3A0C-FE83-84B9-8D88-E2EA82C53FB6</designId>
+</OSDM_Design>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="596F7D7B-13C9-F23C-32A2-9AE12548CB95" name="BOLETA">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>415AE90E-08A4-9830-DE06-D72A121CF187</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMPROBANTE" id="EA5BCA9B-D10A-E65A-F16F-2BA942315584">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>50B46E74-66E8-9D58-8085-0083EEBD83ED</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4207C147-820D-4E5A-C4D4-B7B77D47C0AD" referredColumn="3D91C201-FC31-5EAC-33E8-23494AA5496F"/>
+</associations>
+</Column>
+<Column name="MONTO_TOTAL" id="D1A91FE7-091E-2081-AB06-067C4CEFA9DA">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>7D2B7FBC-62A9-640F-AF37-932977464EE9</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_BOLETA" id="E8456994-DBE6-B840-AD43-12A9299BEAE2">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:17:36 UTC</createdTime>
+<generatorID>3ECC3B1D-FA56-505E-4238-A61810622369</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANCOv1_ID_BANCO" id="E98F1610-101D-E70E-6061-FEF3830D99AF">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:17:36 UTC</createdTime>
+<generatorID>EA27516B-0F35-5D0F-6517-A3869F7EF46A</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5F8C137-D88D-A6CB-E6D4-A7E6C89BD013" name="BOLETA_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>7FCC4BC2-7636-E289-0EC3-3ABFB67CE557</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA5BCA9B-D10A-E65A-F16F-2BA942315584"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="933A5FDF-BA99-EE1D-5988-483712A00205" name="BOLETA_PKv1">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:17:36 UTC</createdTime>
+<generatorID>C3944BEB-AF29-A138-A6BA-DEA3484015C8</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8456994-DBE6-B840-AD43-12A9299BEAE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D024C56-71FA-6B56-452B-B2B22808D679" name="BOLETA_COMPROBANTE_DE_PAGO_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>3A71854A-4B51-1EB5-E2B6-6B6F6D8B0B64</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA5BCA9B-D10A-E65A-F16F-2BA942315584"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

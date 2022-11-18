@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="931CAE8B-E556-A2DA-0CED-490B9A43769C" name="PEDIDO">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>55486B43-0CFB-F838-D80D-85CC204D8242</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PEDIDO" id="BC1E5164-33FF-B9F5-FE36-7C405ED39865">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>339BA84E-EFD8-E0B7-F2BF-30AA97C499A5</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PEDIDO" id="7148789C-0907-6E54-4CDA-35DDEDDDDED1">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>081B6BC1-140D-08BD-4E5B-9901412AE402</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MESA" id="001085BE-FFE2-2BA4-4A92-981C372EC5E5">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>BC746D0E-5C6B-D074-720D-2501ECF68E88</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B938441-6400-F37B-2F51-86C89E1A4DE2" referredColumn="1B9F426D-FC8A-8B8F-0AF9-BCFF9F67240C"/>
+</associations>
+</Column>
+<Column name="ID_ORDEN" id="6A6CE4FF-186E-0FCF-9DE9-652D0DDC5C27">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>8D98CCC6-C9AA-D9B4-4534-A7DC3E83ABBA</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD47A0AE-038C-E7D9-5772-C33C0948984D" referredColumn="92D8498D-B700-E59E-1D33-9ADEF9F4729F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B1EA01B-83E3-CD86-0FF7-8383178D9CFF" name="PEDIDO_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>6AEC8C86-9BA7-ED7F-4767-D9DC11DE3FA1</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC1E5164-33FF-B9F5-FE36-7C405ED39865"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EED2761-4AD0-FEAE-6C71-3E271DA24999" name="PEDIDO_MESA_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>757A5035-0C20-618C-6CD1-E36D679C218F</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="001085BE-FFE2-2BA4-4A92-981C372EC5E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F76711D5-121D-3923-40FD-DF420D8A3F30" name="PEDIDO_ORDEN_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>7B4FFDDF-372C-EBCB-6478-AD61429E4EE3</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A6CE4FF-186E-0FCF-9DE9-652D0DDC5C27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

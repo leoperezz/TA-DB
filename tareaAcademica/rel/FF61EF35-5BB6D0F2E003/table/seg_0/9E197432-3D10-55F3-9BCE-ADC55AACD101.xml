@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E197432-3D10-55F3-9BCE-ADC55AACD101" name="CARTA">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<generatorID>4502DBC0-2529-E65B-0E1F-CA476E460E53</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CARTA" id="D577F5C2-D145-0772-B679-8CE03AB39CA2">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<generatorID>B4049C0E-813E-BD43-475D-17E687C95A66</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="425E63A8-19A7-FA1C-12C5-A4BC9F13D2B7">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<generatorID>519C3FC4-52E8-B11B-CAE7-D953DFF38C34</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SUCURSAL" id="7BF6E287-4BF3-FBBF-DC89-1F0E425E0DA5">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<generatorID>EA903B61-71D4-3215-5179-43D4AD7DBAB9</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLATILLO_ID_PLATILLO" id="17C05ECE-7125-C81B-32D1-0D634D9E4E85">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<generatorID>74768B9F-8996-69E6-2169-8D4B9E607A9F</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6062B5A0-D6A6-AE33-7A86-E69C8C0A3562" referredColumn="F4A8E797-B9BB-0A8D-0F0B-FCC4C21E14EB"/>
+</associations>
+</Column>
+<Column name="SUCURSAL_ID_SUCURSAL" id="520A3B62-C53E-3124-91D5-63382701739A">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:49:43 UTC</createdTime>
+<generatorID>6721440C-5873-F903-9508-12CE829AD75B</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67DB740B-541A-CA18-7403-27359CBA67E8" referredColumn="239ED400-CE99-B9C8-0CF9-BDC4A1C1C0DF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F4652EA-B664-CD26-EB4D-F58B2645BDB6" name="CARTA_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<generatorID>D142CD1F-1601-B13A-99BD-FC8EC10BAA3B</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D577F5C2-D145-0772-B679-8CE03AB39CA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A065F2CE-000F-4AA7-90F1-F921309A943A" name="CARTA_PLATILLO_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>97288417-B835-6412-D5E8-D9E9A9B7B664</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17C05ECE-7125-C81B-32D1-0D634D9E4E85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="658BA293-3A35-46E5-D554-9D7C431008DB" name="CARTA_SUCURSAL_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 15:40:43 UTC</createdTime>
+<generatorID>703098F5-F106-0CF7-944D-2D7C09FF8229</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="520A3B62-C53E-3124-91D5-63382701739A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

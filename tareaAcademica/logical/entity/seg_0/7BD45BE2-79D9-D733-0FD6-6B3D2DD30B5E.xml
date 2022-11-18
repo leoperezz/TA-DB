@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7BD45BE2-79D9-D733-0FD6-6B3D2DD30B5E" name="MESA">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:31:19 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_MESA" id="8460AB14-7F1B-62B4-DD1C-1C22A0DC4FF5">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:31:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de cada mesa]]></commentInRDBMS>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CAPACIDAD" id="EE63A8ED-E701-A233-A7A1-19204C9FEFA8">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:32:00 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SUCURSAL" id="695BBA68-5FBE-5174-014C-DED44AA69387">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 04:11:12 UTC</createdTime>
+<generatorID>94F3B31B-9BD6-E97E-03BC-00C7225E47F6</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<referedAttribute>51DC5D15-B503-6217-0F9C-16578FCFDCA8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E3E398E-274A-4572-C1EA-48712AC94E71" name="MESA PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:31:35 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8460AB14-7F1B-62B4-DD1C-1C22A0DC4FF5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

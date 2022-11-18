@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5932BD9B-FA74-23AA-75ED-60D24C09A6FC" name="HISTORIAL_LABORAL">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<generatorID>706448CF-D02C-983C-4B9C-88F7D1292C23</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_HISTORIAL" id="B314CF57-E646-A714-D9A9-F49F8AE3A5D6">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>65D4D34A-50D9-7673-76B1-CF39CBC6BF46</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INGRESO" id="6DB21FB7-670C-DD86-F3BE-06B0BA1A2450">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>F6B22E40-5131-FFF0-A15C-8606C691CD5F</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUESTO_INICIAL" id="DC09DA66-BC05-A585-6B6C-D8D85C1F150C">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>B28EC110-40D5-B58E-E2BC-B612CBE90A84</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_INICIAL" id="633580B6-C664-F17A-E608-C3165303344B">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>2EA65A6A-02A8-1556-5551-B538307F1026</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_ACTUAL" id="5F4F708F-3FFC-E1CA-2BDD-BAF88A008CF3">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>CF5638D8-0BB7-8963-EB2F-F359C30267FB</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADO_ID_EMPLEADO" id="5F13CB58-03D2-BB0E-0A6C-16456262FEF9">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>FCB3F458-078C-5C67-57E4-A7E6DF82FE34</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AAFE196-E3BE-B68F-3C7C-6EA4965050C0" referredColumn="EF64EAD8-E399-42E9-1444-EDD12F51BD82"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="783B7FE3-E4D9-9FDD-6362-BDFF46C8286E" name="HISTORIAL_LABORAL_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>4442738B-509C-CE9F-1900-01075C6F4B78</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B314CF57-E646-A714-D9A9-F49F8AE3A5D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03FD7820-3E3A-5520-C149-F63E9EBD5626" name="HISTORIAL_LABORAL__IDX">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>738E014D-D2BC-96E2-B740-632FB1B17686</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5F13CB58-03D2-BB0E-0A6C-16456262FEF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3529EDB-52A7-8129-F858-B25AC5A3BADB" name="HISTORIAL_LABORAL_EMPLEADO_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>738E014D-D2BC-96E2-B740-632FB1B17686</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F13CB58-03D2-BB0E-0A6C-16456262FEF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

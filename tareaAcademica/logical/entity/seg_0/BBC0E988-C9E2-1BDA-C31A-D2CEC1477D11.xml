@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBC0E988-C9E2-1BDA-C31A-D2CEC1477D11" name="INGREDIENTE">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 02:59:44 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_INGREDIENTE" id="42D3725F-5686-759F-8791-AB5C37402AAD">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 02:59:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de cada ingrediente]]></commentInRDBMS>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STOCK" id="A88775DD-CC25-9B03-4B88-22B85AAE12DF">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:00:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Stock disponible del ingrediente]]></commentInRDBMS>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECIO_UNITARIO" id="87249C1C-A4E8-8896-772A-FDEEF9E604FE">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:00:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Precio por unidad del ingrediente]]></commentInRDBMS>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_UNIDAD" id="FE9BE16C-B813-B7F3-1845-F90D7F9BF394">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 04:30:14 UTC</createdTime>
+<generatorID>16306DDC-5000-443B-3B7C-E96FB415BF01</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<referedAttribute>C9ED684C-82CD-A636-AC4B-8F8AB9329BFE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PROVEEDOR" id="16834378-663B-E0A7-E0A3-33D44313ABFC">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 16:25:27 UTC</createdTime>
+<generatorID>E5EE500B-847F-0073-F556-3EE30F32ED5E</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="true"/>
+</engineerTo>
+<referedAttribute>4945942A-E6C4-0D52-F7AC-A632E334D788</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC15DEDC-0213-8877-8F35-ACD0F9D77858" name="INGREDIENTE PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 03:00:03 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FF61EF35-73F6-9D60-C83D-5BB6D0F2E003" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42D3725F-5686-759F-8791-AB5C37402AAD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

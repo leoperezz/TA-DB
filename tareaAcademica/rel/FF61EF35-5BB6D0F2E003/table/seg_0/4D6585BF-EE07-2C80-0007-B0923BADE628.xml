@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D6585BF-EE07-2C80-0007-B0923BADE628" name="CARGO">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<generatorID>A5A7E9EB-FBF6-C961-C1FF-794C91887C85</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CARGO" id="5492A48C-E278-36CD-ED57-B727E9AB784F">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del cargo:
+C -> cocinero
+S -> seguridad
+L -> Limpieza
+CJ -> CAJERO
+G -> GERENTE]]></commentInRDBMS>
+<generatorID>26B2E644-42A7-2B70-AE46-8516E0D962F1</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="C9735D7E-4D7C-8993-B9EF-2148034EB3E1">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del cargo]]></commentInRDBMS>
+<generatorID>DA72B87F-BA93-35EC-2398-E1F51991DA75</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F1DCF31-4E5F-6410-217B-F0DB6F3DEFFD" name="CARGO_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:17 UTC</createdTime>
+<generatorID>F53417DB-1761-5DAF-5C05-5F16C08A0AF5</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5492A48C-E278-36CD-ED57-B727E9AB784F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
