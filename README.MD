@@ -6,6 +6,7 @@
     - [Paso 1](#paso-1)
     - [Paso 2](#paso-2)
 - [Primer Modelo Relacional del proyecto](#primer-modelo-relacional-del-proyecto)
+- [Segundo Modelo Relacional del proyecto](#segundo-modelo-relacional-del-proyecto)
 
 # Pasos para abrir el Modelo Relacional:
 
@@ -57,4 +58,9 @@ Presenta erroes y correciones, de las.
 
 </center>
 
-Día MIERCOLES 16/11/2022 subida del nuevo modelo de la base de datos
+# Segundo Modelo Relacional del proyecto
+<center>
+
+![Segundo Modelo, falta parte de medio de pago](Img/segundoModelo.png)
+
+</center>

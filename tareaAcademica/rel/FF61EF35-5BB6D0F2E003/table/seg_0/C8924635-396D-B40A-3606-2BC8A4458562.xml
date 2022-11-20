@@ -36,6 +36,18 @@
 <colAssociation fkAssociation="3D8C384A-A523-7051-4BAC-99EB4D374FAF" referredColumn="1B9F426D-FC8A-8B8F-0AF9-BCFF9F67240C"/>
 </associations>
 </Column>
+<Column name="MONTO_TOTAL" id="EB7B230D-CBE7-EE42-43B9-CAC1541018D3">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-20 23:14:00 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E826A691-D734-3376-048B-92661C43CE70" name="ORDEN_PK">

@@ -7,7 +7,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="SUCURSAL_ID_SUCURSAL" id="EA9C9EBE-24ED-6A1C-5A95-503B555DD353">
+<Column name="ID_SUCURSAL" id="EA9C9EBE-24ED-6A1C-5A95-503B555DD353">
 <createdBy>Jesus</createdBy>
 <createdTime>2022-11-18 15:40:43 UTC</createdTime>
 <ownerDesignName>tareaAcademica</ownerDesignName>
@@ -15,14 +15,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="D02378E0-ED2B-C93A-41AB-8D7DE5B56601" referredColumn="239ED400-CE99-B9C8-0CF9-BDC4A1C1C0DF"/>
 </associations>
 </Column>
-<Column name="INGREDIENTE_ID_INGREDIENTE" id="88F44EFB-B0BD-D703-034C-A5132FE6E317">
+<Column name="ID_INGREDIENTE" id="88F44EFB-B0BD-D703-034C-A5132FE6E317">
 <createdBy>Jesus</createdBy>
 <createdTime>2022-11-18 15:40:43 UTC</createdTime>
 <ownerDesignName>tareaAcademica</ownerDesignName>
@@ -31,7 +31,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

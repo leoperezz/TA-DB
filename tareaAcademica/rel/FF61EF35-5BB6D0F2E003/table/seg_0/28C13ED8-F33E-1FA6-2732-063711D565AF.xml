@@ -21,18 +21,6 @@
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DIA" id="FEBD358B-77E3-42CD-0C3F-81631BD39DEC">
-<createdBy>Jesus</createdBy>
-<createdTime>2022-11-18 05:48:18 UTC</createdTime>
-<commentInRDBMS><![CDATA[Dia que trabajo el empleado]]></commentInRDBMS>
-<generatorID>B3FD038D-4C39-49C9-6DE3-D939B44C5C1F</generatorID>
-<ownerDesignName>tareaAcademica</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="HORA_INICIO" id="1C7B8142-330C-C594-F2DE-7296134F5E6B">
 <createdBy>Jesus</createdBy>
 <createdTime>2022-11-18 05:48:18 UTC</createdTime>
@@ -55,7 +43,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="EMPLEADO_ID_EMPLEADO" id="8165ACE8-301B-EC44-343D-B0E5993D819B">
+<Column name="ID_EMPLEADO" id="8165ACE8-301B-EC44-343D-B0E5993D819B">
 <createdBy>Jesus</createdBy>
 <createdTime>2022-11-18 05:48:18 UTC</createdTime>
 <generatorID>2AC9346F-EDCF-A860-BFD5-F72411934E07</generatorID>

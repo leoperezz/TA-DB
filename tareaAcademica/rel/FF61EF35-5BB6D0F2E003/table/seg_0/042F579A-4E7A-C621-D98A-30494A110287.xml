@@ -7,7 +7,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COMPRA_ID_COMPRA" id="F9CE7A89-0705-FCB2-8C03-5AD78E654B80">
+<Column name="ID_COMPRA" id="F9CE7A89-0705-FCB2-8C03-5AD78E654B80">
 <createdBy>Jesus</createdBy>
 <createdTime>2022-11-18 05:48:18 UTC</createdTime>
 <ownerDesignName>tareaAcademica</ownerDesignName>
@@ -15,14 +15,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="B8C15BBE-3FFB-9A82-E284-7ECF90057939" referredColumn="13E04C30-0445-CDB8-ACD1-CC435FA5534A"/>
 </associations>
 </Column>
-<Column name="INGREDIENTE_ID_INGREDIENTE" id="A7F6CF1E-B3D4-26E7-A4D7-7E2F60DE2E9B">
+<Column name="ID_INGREDIENTE" id="A7F6CF1E-B3D4-26E7-A4D7-7E2F60DE2E9B">
 <createdBy>Jesus</createdBy>
 <createdTime>2022-11-18 05:48:18 UTC</createdTime>
 <ownerDesignName>tareaAcademica</ownerDesignName>
@@ -31,7 +31,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

@@ -57,7 +57,7 @@
 <ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COMPRA_ID_COMPRA" id="0FCB1DB2-C680-4A0A-5C4E-39C8E3F0F766">
+<Column name="ID_COMPRA" id="0FCB1DB2-C680-4A0A-5C4E-39C8E3F0F766">
 <createdBy>Jesus</createdBy>
 <createdTime>2022-11-18 16:25:42 UTC</createdTime>
 <generatorID>B7F488C7-0880-11FF-1D33-AE37C460EA0F</generatorID>
@@ -66,7 +66,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

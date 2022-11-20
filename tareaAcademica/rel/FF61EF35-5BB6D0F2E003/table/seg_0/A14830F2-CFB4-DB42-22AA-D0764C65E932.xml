@@ -7,7 +7,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="PEDIDO_ID_PEDIDO" id="539CCC59-7643-BD35-FADC-A0DFECD10513">
+<Column name="ID_PEDIDO" id="539CCC59-7643-BD35-FADC-A0DFECD10513">
 <createdBy>Jesus</createdBy>
 <createdTime>2022-11-18 05:48:18 UTC</createdTime>
 <ownerDesignName>tareaAcademica</ownerDesignName>
@@ -15,14 +15,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="990B721E-8A7E-4F7F-E23C-B5267477846B" referredColumn="BC1E5164-33FF-B9F5-FE36-7C405ED39865"/>
 </associations>
 </Column>
-<Column name="PLATILLO_ID_PLATILLO" id="1CCB32A6-0B42-9C8E-957A-55D1BD633607">
+<Column name="ID_PLATILLO" id="1CCB32A6-0B42-9C8E-957A-55D1BD633607">
 <createdBy>Jesus</createdBy>
 <createdTime>2022-11-18 05:48:18 UTC</createdTime>
 <ownerDesignName>tareaAcademica</ownerDesignName>
@@ -30,7 +30,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

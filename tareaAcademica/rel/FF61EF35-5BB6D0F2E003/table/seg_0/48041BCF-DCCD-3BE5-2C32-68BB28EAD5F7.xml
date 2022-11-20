@@ -44,53 +44,6 @@
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_ORDEN" id="89C5CE64-5D6A-7979-B6FE-B66BD7E9B7CC">
-<createdBy>Jesus</createdBy>
-<createdTime>2022-11-18 05:48:18 UTC</createdTime>
-<generatorID>1DEDAF42-2448-7D29-310B-F32B17B521B0</generatorID>
-<ownerDesignName>tareaAcademica</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BC63EDCA-2E58-D225-0FC7-87B8BDBF580A" referredColumn="92D8498D-B700-E59E-1D33-9ADEF9F4729F"/>
-</associations>
-</Column>
-<Column name="FORMA_DE_PAGO" id="FC8E33E8-F433-96BB-0475-5B2396031BEE">
-<createdBy>Jesus</createdBy>
-<createdTime>2022-11-18 05:48:18 UTC</createdTime>
-<commentInRDBMS><![CDATA[Indicador, que nos servirá para saber con que medio esta pagando
-E -> EFECTIVO
-C -> CREDITO]]></commentInRDBMS>
-<generatorID>6DBA6FE3-949E-7535-E736-C1140D33F2B0</generatorID>
-<ownerDesignName>tareaAcademica</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1 BYTE</dataTypeSize>
-<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ID_CLIENTE" id="272A66FE-E16B-1BA9-E049-956BD246C870">
-<createdBy>Jesus</createdBy>
-<createdTime>2022-11-18 05:48:18 UTC</createdTime>
-<generatorID>02C1FF9D-8E46-3399-53BE-B460CDCFC92E</generatorID>
-<ownerDesignName>tareaAcademica</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="3018E6E0-4F81-A4DD-8012-65543946E7DF" referredColumn="D2029588-CDD0-BBB8-D1FC-CEA67651DBFC"/>
-</associations>
-</Column>
 <Column name="TIPO_COMPROBANTE" id="6547E108-3867-1489-2E2D-59E51D652460">
 <createdBy>Jesus</createdBy>
 <createdTime>2022-11-18 16:17:36 UTC</createdTime>
@@ -104,6 +57,38 @@ F -> Factura]]></commentInRDBMS>
 <dataTypeSize>1 BYTE</dataTypeSize>
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ORDEN" id="89C5CE64-5D6A-7979-B6FE-B66BD7E9B7CC">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>1DEDAF42-2448-7D29-310B-F32B17B521B0</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC63EDCA-2E58-D225-0FC7-87B8BDBF580A" referredColumn="92D8498D-B700-E59E-1D33-9ADEF9F4729F"/>
+</associations>
+</Column>
+<Column name="ID_CLIENTE" id="272A66FE-E16B-1BA9-E049-956BD246C870">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>02C1FF9D-8E46-3399-53BE-B460CDCFC92E</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3018E6E0-4F81-A4DD-8012-65543946E7DF" referredColumn="D2029588-CDD0-BBB8-D1FC-CEA67651DBFC"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

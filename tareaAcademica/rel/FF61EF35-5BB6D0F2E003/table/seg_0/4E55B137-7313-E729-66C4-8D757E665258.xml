@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="SUCURSAL_ID_SUCURSAL" id="A6FDEECB-61B0-2F69-83B0-A931A760E160">
+<Column name="ID_SUCURSAL" id="A6FDEECB-61B0-2F69-83B0-A931A760E160">
 <createdBy>Jesus</createdBy>
 <createdTime>2022-11-18 05:48:17 UTC</createdTime>
 <generatorID>9EBB1BB2-8091-B09F-1954-9A366B90CA67</generatorID>
@@ -17,7 +17,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

@@ -17,24 +17,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="4207C147-820D-4E5A-C4D4-B7B77D47C0AD" referredColumn="3D91C201-FC31-5EAC-33E8-23494AA5496F"/>
 </associations>
-</Column>
-<Column name="MONTO_TOTAL" id="D1A91FE7-091E-2081-AB06-067C4CEFA9DA">
-<createdBy>Jesus</createdBy>
-<createdTime>2022-11-18 05:48:18 UTC</createdTime>
-<generatorID>7D2B7FBC-62A9-640F-AF37-932977464EE9</generatorID>
-<ownerDesignName>tareaAcademica</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ID_BOLETA" id="E8456994-DBE6-B840-AD43-12A9299BEAE2">
 <createdBy>Jesus</createdBy>
@@ -48,16 +35,17 @@
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="BANCOv1_ID_BANCO" id="E98F1610-101D-E70E-6061-FEF3830D99AF">
+<Column name="MONTO_TOTAL" id="D1A91FE7-091E-2081-AB06-067C4CEFA9DA">
 <createdBy>Jesus</createdBy>
-<createdTime>2022-11-18 16:17:36 UTC</createdTime>
-<generatorID>EA27516B-0F35-5D0F-6517-A3869F7EF46A</generatorID>
+<createdTime>2022-11-18 05:48:18 UTC</createdTime>
+<generatorID>7D2B7FBC-62A9-640F-AF37-932977464EE9</generatorID>
 <ownerDesignName>tareaAcademica</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

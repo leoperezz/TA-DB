@@ -10,7 +10,7 @@
 <keyObject>0C8FB99C-F490-6811-2B19-D553A2972830</keyObject>
 <referredKeyID>0C8FB99C-F490-6811-2B19-D553A2972830</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>ID_PRODUCTO</refColNames>
+<refColNames>ID_PLATILLO</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

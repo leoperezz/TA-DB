@@ -69,7 +69,7 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="EMPLEADO_ID_EMPLEADO" id="5F13CB58-03D2-BB0E-0A6C-16456262FEF9">
+<Column name="ID_EMPLEADO" id="5F13CB58-03D2-BB0E-0A6C-16456262FEF9">
 <createdBy>Jesus</createdBy>
 <createdTime>2022-11-18 05:48:18 UTC</createdTime>
 <generatorID>FCB3F458-078C-5C67-57E4-A7E6DF82FE34</generatorID>
