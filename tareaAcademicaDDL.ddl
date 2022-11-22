@@ -1,5 +1,5 @@
 -- Generado por Oracle SQL Developer Data Modeler 22.2.0.165.1149
---   en:        2022-11-20 18:31:42 COT
+--   en:        2022-11-22 12:43:21 COT
 --   sitio:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
 
@@ -145,9 +145,10 @@ CREATE UNIQUE INDEX historial_laboral__idx ON
 ALTER TABLE historial_laboral ADD CONSTRAINT historial_laboral_pk PRIMARY KEY ( id_historial );
 
 CREATE TABLE ingrediente (
-    id_ingrediente  NUMBER(8, 2) NOT NULL,
+    id_ingrediente  NUMBER(8) NOT NULL,
+    nombre          VARCHAR2(50 BYTE) NOT NULL,
     precio_unitario NUMBER(4, 2) NOT NULL,
-    id_unidad       VARCHAR2(50 BYTE) NOT NULL
+    id_unidad       NUMBER(8) NOT NULL
 );
 
 COMMENT ON COLUMN ingrediente.id_ingrediente IS
@@ -210,19 +211,19 @@ ALTER TABLE pedido_x_platillo ADD CONSTRAINT pedido_x_platillo_pk PRIMARY KEY ( 
                                                                                 id_platillo );
 
 CREATE TABLE plat_x_ingred (
-    id_producto    NUMBER(8) NOT NULL,
-    id_ingrediente NUMBER(8, 2) NOT NULL,
+    id_platillo    NUMBER(8) NOT NULL,
+    id_ingrediente NUMBER(8) NOT NULL,
     cantidad       NUMBER(10, 2) NOT NULL
 );
 
-ALTER TABLE plat_x_ingred ADD CONSTRAINT plat_x_ingred_pk PRIMARY KEY ( id_producto,
+ALTER TABLE plat_x_ingred ADD CONSTRAINT plat_x_ingred_pk PRIMARY KEY ( id_platillo,
                                                                         id_ingrediente );
 
 CREATE TABLE platillo (
     id_platillo NUMBER(8) NOT NULL,
-    nombre      VARCHAR2(30 BYTE) NOT NULL,
+    nombre      VARCHAR2(50 BYTE) NOT NULL,
     precio      NUMBER(4, 2) NOT NULL,
-    descripción VARCHAR2(50 BYTE) NOT NULL,
+    descripcion VARCHAR2(100 BYTE) NOT NULL,
     stock       NUMBER(3) NOT NULL
 );
 
@@ -232,7 +233,7 @@ COMMENT ON COLUMN platillo.id_platillo IS
 COMMENT ON COLUMN platillo.precio IS
     'Precio del platillo';
 
-COMMENT ON COLUMN platillo.descripción IS
+COMMENT ON COLUMN platillo.descripcion IS
     'Descripción de lo que contiene el producto';
 
 COMMENT ON COLUMN platillo.stock IS
@@ -282,7 +283,7 @@ COMMENT ON COLUMN sucursal.telefono IS
 ALTER TABLE sucursal ADD CONSTRAINT sucursal_pk PRIMARY KEY ( id_sucursal );
 
 CREATE TABLE unidad_divisoria (
-    id_unidad    VARCHAR2(50 BYTE) NOT NULL,
+    id_unidad    NUMBER(8) NOT NULL,
     nombre       VARCHAR2(50 BYTE) NOT NULL,
     id_dimension CHAR(1 BYTE) NOT NULL
 );
@@ -374,7 +375,7 @@ ALTER TABLE plat_x_ingred
         REFERENCES ingrediente ( id_ingrediente );
 
 ALTER TABLE plat_x_ingred
-    ADD CONSTRAINT plat_x_ingred_platillo_fk FOREIGN KEY ( id_producto )
+    ADD CONSTRAINT plat_x_ingred_platillo_fk FOREIGN KEY ( id_platillo )
         REFERENCES platillo ( id_platillo );
 
 ALTER TABLE proveedor

@@ -29,8 +29,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 BYTE</dataTypeSize>
-<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PRECIO" id="5E448D1B-A26F-F5D0-6D4B-EDD4AFFD50D0">
@@ -47,7 +47,7 @@
 <ownDataTypeParameters>,4,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DESCRIPCIÓN" id="2800F277-097A-454C-D532-38FBE32C524D">
+<Column name="DESCRIPCION" id="2800F277-097A-454C-D532-38FBE32C524D">
 <createdBy>Jesus</createdBy>
 <createdTime>2022-11-18 05:48:18 UTC</createdTime>
 <commentInRDBMS><![CDATA[Descripción de lo que contiene el producto]]></commentInRDBMS>
@@ -56,8 +56,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 BYTE</dataTypeSize>
-<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="STOCK" id="8192C7CE-097B-B983-7BB8-11253D1C7AE3">
