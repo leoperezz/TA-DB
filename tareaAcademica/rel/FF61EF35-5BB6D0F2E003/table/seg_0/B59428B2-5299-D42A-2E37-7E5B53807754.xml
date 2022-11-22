@@ -21,6 +21,17 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="NroMesa" id="BD19B825-D204-ABD6-A563-4BFE0E9B3FE9">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-22 18:26:14 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="CAPACIDAD" id="DF37B136-BD6E-4EBF-9223-81E12E20B61D">
 <createdBy>Jesus</createdBy>
 <createdTime>2022-11-18 05:48:18 UTC</createdTime>
@@ -42,7 +53,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

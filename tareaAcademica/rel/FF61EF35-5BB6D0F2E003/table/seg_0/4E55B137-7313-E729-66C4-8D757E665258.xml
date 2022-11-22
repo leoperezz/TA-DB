@@ -17,7 +17,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -47,6 +47,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_PROVEEDOR" id="5A527447-A9F9-41D6-54CF-36EF08D064B6">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-22 18:13:11 UTC</createdTime>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEA9C87D-6525-BC60-55A3-F4BECD2F6758" referredColumn="484448DB-BB43-CD7A-8610-DCEC77599A91"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="90DFA3A7-FAE1-2522-C674-547E5F836CD9" name="COMPRA_PK">
@@ -70,6 +85,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A6FDEECB-61B0-2F69-83B0-A931A760E160"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6D1F049-051D-F439-3D39-6B52CAF1304D" name="COMPRA_PROVEEDOR_FK">
+<createdBy>Jesus</createdBy>
+<createdTime>2022-11-22 18:13:11 UTC</createdTime>
+<generatorID>146B5A6A-4DFB-6744-3AB7-C4E018AEDA62</generatorID>
+<ownerDesignName>tareaAcademica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A527447-A9F9-41D6-54CF-36EF08D064B6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

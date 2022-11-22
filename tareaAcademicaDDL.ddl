@@ -1,5 +1,5 @@
 -- Generado por Oracle SQL Developer Data Modeler 22.2.0.165.1149
---   en:        2022-11-22 12:43:21 COT
+--   en:        2022-11-22 13:26:19 COT
 --   sitio:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
 
@@ -57,9 +57,10 @@ CREATE TABLE cliente (
 ALTER TABLE cliente ADD CONSTRAINT cliente_pk PRIMARY KEY ( id_cliente );
 
 CREATE TABLE compra (
-    id_sucursal NUMBER(3) NOT NULL,
-    id_compra   NUMBER(10) NOT NULL,
-    fecha       DATE NOT NULL
+    id_sucursal  NUMBER(3) NOT NULL,
+    id_compra    NUMBER(10) NOT NULL,
+    fecha        DATE NOT NULL,
+    id_proveedor NUMBER(8) NOT NULL
 );
 
 ALTER TABLE compra ADD CONSTRAINT compra_pk PRIMARY KEY ( id_compra );
@@ -173,6 +174,7 @@ ALTER TABLE jornada_laboral ADD CONSTRAINT jornada_laboral_pk PRIMARY KEY ( id_j
 
 CREATE TABLE mesa (
     id_mesa     NUMBER(2) NOT NULL,
+    nromesa     NUMBER(2) NOT NULL,
     capacidad   NUMBER(2) NOT NULL,
     id_sucursal NUMBER(3) NOT NULL
 );
@@ -223,7 +225,7 @@ CREATE TABLE platillo (
     id_platillo NUMBER(8) NOT NULL,
     nombre      VARCHAR2(50 BYTE) NOT NULL,
     precio      NUMBER(4, 2) NOT NULL,
-    descripcion VARCHAR2(100 BYTE) NOT NULL,
+    descripcion VARCHAR2(250 BYTE) NOT NULL,
     stock       NUMBER(3) NOT NULL
 );
 
@@ -245,8 +247,7 @@ CREATE TABLE proveedor (
     id_proveedor NUMBER(8) NOT NULL,
     nombre       VARCHAR2(30 BYTE) NOT NULL,
     ruc          VARCHAR2(11 BYTE) NOT NULL,
-    telefono     VARCHAR2(9 BYTE) NOT NULL,
-    id_compra    NUMBER(10) NOT NULL
+    telefono     VARCHAR2(9 BYTE) NOT NULL
 );
 
 ALTER TABLE proveedor ADD CONSTRAINT proveedor_pk PRIMARY KEY ( id_proveedor );
@@ -301,6 +302,10 @@ ALTER TABLE carta
 ALTER TABLE carta
     ADD CONSTRAINT carta_sucursal_fk FOREIGN KEY ( id_sucursal )
         REFERENCES sucursal ( id_sucursal );
+
+ALTER TABLE compra
+    ADD CONSTRAINT compra_proveedor_fk FOREIGN KEY ( id_proveedor )
+        REFERENCES proveedor ( id_proveedor );
 
 ALTER TABLE compra
     ADD CONSTRAINT compra_sucursal_fk FOREIGN KEY ( id_sucursal )
@@ -377,10 +382,6 @@ ALTER TABLE plat_x_ingred
 ALTER TABLE plat_x_ingred
     ADD CONSTRAINT plat_x_ingred_platillo_fk FOREIGN KEY ( id_platillo )
         REFERENCES platillo ( id_platillo );
-
-ALTER TABLE proveedor
-    ADD CONSTRAINT proveedor_compra_fk FOREIGN KEY ( id_compra )
-        REFERENCES compra ( id_compra );
 
 ALTER TABLE suc_x_ingred
     ADD CONSTRAINT suc_x_ingred_ingrediente_fk FOREIGN KEY ( id_ingrediente )

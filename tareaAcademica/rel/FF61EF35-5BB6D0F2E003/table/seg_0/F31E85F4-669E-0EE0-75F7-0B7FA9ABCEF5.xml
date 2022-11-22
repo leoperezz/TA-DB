@@ -57,22 +57,6 @@
 <ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_COMPRA" id="0FCB1DB2-C680-4A0A-5C4E-39C8E3F0F766">
-<createdBy>Jesus</createdBy>
-<createdTime>2022-11-18 16:25:42 UTC</createdTime>
-<generatorID>B7F488C7-0880-11FF-1D33-AE37C460EA0F</generatorID>
-<ownerDesignName>tareaAcademica</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BA3FC064-A3FA-4253-1162-5D8AF75910AD" referredColumn="13E04C30-0445-CDB8-ACD1-CC435FA5534A"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="5DF13BC8-35D8-8C5C-E952-93F6B7B175EF" name="PROVEEDOR_PK">
@@ -85,17 +69,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="484448DB-BB43-CD7A-8610-DCEC77599A91"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="8F582945-BF46-3FA2-A27F-CE1E0679A4D8" name="PROVEEDOR_COMPRA_FK">
-<createdBy>Jesus</createdBy>
-<createdTime>2022-11-18 16:25:42 UTC</createdTime>
-<generatorID>6DB76E07-450E-A8D1-8917-CE1FED45ED9E</generatorID>
-<ownerDesignName>tareaAcademica</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0FCB1DB2-C680-4A0A-5C4E-39C8E3F0F766"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
